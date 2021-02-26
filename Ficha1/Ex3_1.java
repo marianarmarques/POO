@@ -30,11 +30,10 @@ public class Ex3_1 {
 
 
    
-
-    public static void main (String [] args) {
+public static void main (String [] args) {
         int resultado, d, m, a;
 
-        Ex3_1 f = new Ex3_1();
+        
         Scanner input = new Scanner (System.in);
         System.out.println ("Que dia, mês e ano quer?");
         d = input.nextInt();
@@ -43,9 +42,9 @@ public class Ex3_1 {
         
         
         if ((a%4)==0 && (m==1 || m==2)) {
-            resultado = (a-1900)*365 + ((a-1900)/4)-1 + (f.contaDias(d, m)) ;
+            resultado = (a-1900)*365 + ((a-1900)/4)-1 + contaDias(d, m) ;
         }
-        else  resultado = (a-1900)*365 + (a-1900)/4 + (f.contaDias(d, m));
+        else  resultado = (a-1900)*365 + (a-1900)/4 + contaDias(d, m);
         
         resultado = (resultado%7);
 

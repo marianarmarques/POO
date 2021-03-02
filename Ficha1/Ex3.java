@@ -35,9 +35,8 @@ public class Ex3 {
         return (resultado%7); 
     }
 
+    
 
-
-   
     public static void main (String [] args) {
         int ex;
 
@@ -57,26 +56,36 @@ public class Ex3 {
                 int resultado = ex3_1(d, m, a);
                 switch (resultado) {
                     case 0: 
-                        System.out.println("O dia da semana é Domingo"); break;
+                        System.out.println("O dia da semana é Domingo"); 
+                        break;
                     
                     case 1:
-                        System.out.println("O dia da semana é Segunda-feira"); break;
+                        System.out.println("O dia da semana é Segunda-feira"); 
+                        break;
                 
                     case 2:
-                        System.out.println("O dia da semana é Terça-feira"); break;
+                        System.out.println("O dia da semana é Terça-feira"); 
+                        break;
                 
                     case 3:
-                        System.out.println("O dia da semana é Quarta-feira"); break;
+                        System.out.println("O dia da semana é Quarta-feira"); 
+                        break;
                     
                     case 4:
-                        System.out.println("O dia da semana é Quinta-feira"); break;
+                        System.out.println("O dia da semana é Quinta-feira"); 
+                        break;
                 
                     case 5:
-                        System.out.println("O dia da semana é Sexta-feira"); break;
+                        System.out.println("O dia da semana é Sexta-feira"); 
+                        break;
                     
                     case 6:
-                        System.out.println("O dia da semana é Sábado"); break;
+                        System.out.println("O dia da semana é Sábado"); 
+                        break;
                 }
+            case 2 : case 3 : case 4 : case 5 : case 6 : case 7 :
+                System.out.println("O exercício ainda não está feito."); 
+                break;
                 
         }        
         input.close();

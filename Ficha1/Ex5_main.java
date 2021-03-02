@@ -65,6 +65,10 @@ public class Ex5_main {
 
                 System.out.println("O fatorial do inteiro que inseriu é "+fatorial);
                 break;
+            case 7 :
+                System.out.println("O exercício ainda não está feito."); 
+                break;
+                
         }
         input.close();
     }

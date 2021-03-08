@@ -1,4 +1,4 @@
-package Ficha1.Exercicio3;
+package Ficha1;
 import java.util.Scanner;
 
 public class main_Ex3 {
@@ -23,31 +23,31 @@ public class main_Ex3 {
                 int resultado = three.alinea_1(d, m, a);
                 switch (resultado) {
                     case 0: 
-                        System.out.println("O dia da semana é Domingo"); 
+                        System.out.println("O dia da semana é Domingo."); 
                         break;
                     
                     case 1:
-                        System.out.println("O dia da semana é Segunda-feira"); 
+                        System.out.println("O dia da semana é Segunda-feira."); 
                         break;
                 
                     case 2:
-                        System.out.println("O dia da semana é Terça-feira"); 
+                        System.out.println("O dia da semana é Terça-feira."); 
                         break;
                 
                     case 3:
-                        System.out.println("O dia da semana é Quarta-feira"); 
+                        System.out.println("O dia da semana é Quarta-feira."); 
                         break;
                     
                     case 4:
-                        System.out.println("O dia da semana é Quinta-feira"); 
+                        System.out.println("O dia da semana é Quinta-feira."); 
                         break;
                 
                     case 5:
-                        System.out.println("O dia da semana é Sexta-feira"); 
+                        System.out.println("O dia da semana é Sexta-feira."); 
                         break;
                     
                     case 6:
-                        System.out.println("O dia da semana é Sábado"); 
+                        System.out.println("O dia da semana é Sábado."); 
                         break;
                 }
                 break;

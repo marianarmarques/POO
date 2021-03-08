@@ -1,4 +1,4 @@
-package Ficha1;
+package Ficha1.Exercicio5;
 
 
 public class Ex5 {

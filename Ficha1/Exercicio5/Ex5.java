@@ -1,7 +1,7 @@
 package Ficha1;
 
 
-public class Ex5_aux {
+public class Ex5 {
     //1
     public double celsiusParaFarenheit (double celsius) {
         return(1.8*celsius+32);
